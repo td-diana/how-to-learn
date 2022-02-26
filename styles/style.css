@@ -132,20 +132,20 @@ div, h1, section, cards {
 .cards {
   width: 920px;
   display: flex;
-  flex-direction: row;
+  flex-direction: wrap;
   justify-content: space-between;
   margin: 0 auto;  
   border: 1px solid #ed6742;
 }
 
 .cards__item {
-  margin: auto;
+  
 }
 
-.cards__image {
-  background: url(../images/cards-attention.png);
+.cards__image {  
   width: 160px;
   height: 160px;  
+  padding: 60px 43px 40px;
 }
 
 .cards__title {
