@@ -1,6 +1,10 @@
 @keyframes rotation {
-  from {transform: rotate(0deg)}
-  to {transform: rotate(360deg)}
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
 }
 
 .page {
@@ -11,7 +15,7 @@
   /* выше установили ограничение по максимальной ширине */
   margin: 0 auto;
   /* выше для экранов больше 1600px отцентрировали весь контент */
-  font-family: 'Helvetica Neue', Arial, sans-serif;
+  font-family: "Helvetica Neue", Arial, sans-serif;
 }
 
 .header {
@@ -21,7 +25,7 @@
   height: 100vh;
   min-height: 600px;
   max-height: 756px;
-  background-color: #f2f2f2; 
+  background-color: #f2f2f2;
   overflow: hidden;
 }
 
@@ -61,6 +65,7 @@
 .header__link {
   text-decoration: none;
   color: #2f80ed;
+  transition: opacity 1s;
 }
 
 .header__main-illustration {
@@ -71,7 +76,7 @@
   height: 608px;
   background-image: url(../images/header-image.png);
   background-size: cover;
-  z-index: 1;  
+  z-index: 1;
 }
 
 .header__square-pic {
@@ -81,7 +86,7 @@
   position: absolute;
   right: 0;
   top: 64px;
-  animation: rotation linear 20s infinite;   
+  animation: rotation linear 20s infinite;
 }
 
 .description {
@@ -128,52 +133,52 @@
 
 .techniques {
   width: 80%;
-  margin: 0 auto; 
-  padding-top: 100px; 
+  margin: 0 auto;
+  padding-top: 100px;
 }
 
 .cards {
   width: 920px;
-  display: grid; 
-  grid-template-columns: repeat(3, 240px); 
-  justify-content: space-between;  
-  margin: 0 auto;  
+  display: grid;
+  grid-template-columns: repeat(3, 240px);
+  justify-content: space-between;
+  margin: 0 auto;
 }
 
-.cards__item {  
-  text-align: center;  
+.cards__item {
+  text-align: center;
 }
 
-.cards__image {  
+.cards__image {
   width: 160px;
-  height: 160px; 
-  border-radius: 50%;     
-  border: 1px solid #ed6742; 
+  height: 160px;
+  border-radius: 50%;
+  border: 1px solid #ed6742;
   margin: 60px 40px 43px;
 }
 
-.cards__title {  
+.cards__title {
   line-height: 1.15;
   font-size: 24px;
   font-weight: 700;
-  margin-bottom: 16px;  
+  margin-bottom: 16px;
 }
 
-.cards__description {  
+.cards__description {
   line-height: 23px;
   font-size: 18px;
   font-weight: 400;
 }
 
 .video {
-  margin-top: 100px;  
+  margin-top: 100px;
 }
 
 .video__iframes {
   display: grid;
-  grid-template-columns: repeat(2, 515px);  
+  grid-template-columns: repeat(2, 515px);
   column-gap: 20px;
-  justify-content: center;  
+  justify-content: center;
   position: relative;
   top: 50px;
   z-index: 6;
@@ -181,7 +186,7 @@
 
 .video__iframe {
   width: 515px;
-  height: 316px;    
+  height: 316px;
 }
 
 .oakley {
@@ -281,11 +286,12 @@
   right: 48px;
   color: #2f80ed;
   text-decoration: none;
+  transition: opacity 1s;
 }
 
 .khan {
   background-color: #f2f2f2;
-  padding-top: 105px;  
+  padding-top: 105px;
 }
 
 .khan__container {
@@ -293,13 +299,13 @@
   margin: 0 auto;
 }
 
-.khan__author {  
+.khan__author {
   line-height: 42px;
   font-size: 30px;
   font-weight: 400;
 }
 
-.khan__title {  
+.khan__title {
   line-height: 1.15;
   font-size: 60px;
   font-weight: 700;
@@ -318,7 +324,7 @@
   line-height: 1.15;
   font-size: 24px;
   font-weight: 700;
-  margin-bottom: 10px
+  margin-bottom: 10px;
 }
 
 .khan__quote-author-subline {
@@ -329,22 +335,23 @@
 
 .khan__book-container {
   margin-top: 68px;
-  display: flex;   
+  display: flex;
 }
 
 .khan__book-pic {
- background: url(../images/khan-book.jpg);
- width: 620px;
- height: 608px;
+  background: url(../images/khan-book.jpg);
+  width: 620px;
+  height: 608px;
 }
-  
+
 .khan__buy-link {
   line-height: 42px;
   font-size: 30px;
   font-weight: 400;
-  margin-left: 48px;  
+  margin-left: 48px;
   text-decoration: none;
-  color: #2f80ed;  
+  color: #2f80ed;
+  transition: opacity 1s;
 }
 
 .kaufman {
@@ -384,13 +391,12 @@
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
-  z-index: -1;  
-  animation: rotation linear 20s infinite;  
+  z-index: -1;
+  animation: rotation linear 20s infinite;
 }
 
 .resources {
   margin-top: 100px;
-
 }
 
 .resources__logo-zone {
@@ -472,10 +478,10 @@
   display: block;
   color: white;
   list-style-type: none;
-  text-decoration: none;  
+  text-decoration: none;
   transition: opacity 1s;
 }
 
-a:hover {   
-  opacity: 0.5;    
-}  
+a:hover {
+  opacity: 0.5;
+}
