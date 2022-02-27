@@ -329,8 +329,7 @@
 
 .khan__book-container {
   margin-top: 68px;
-  display: flex;
- 
+  display: flex;   
 }
 
 .khan__book-pic {
@@ -343,10 +342,9 @@
   line-height: 42px;
   font-size: 30px;
   font-weight: 400;
-  margin-left: 48px;
+  margin-left: 48px;  
   text-decoration: none;
-  color: #2f80ed;
-  border: #2f80ed solid 1px;
+  color: #2f80ed;  
 }
 
 .kaufman {
