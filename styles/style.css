@@ -125,35 +125,67 @@ div, h1, section, cards {
 
 .techniques {
   width: 80%;
-  margin: 0 auto;
-  
+  margin: 0 auto; 
+  padding-top: 100px; 
 }
 
 .cards {
   width: 920px;
-  display: flex;
-  flex-direction: wrap;
-  justify-content: space-between;
+  display: grid; 
+  grid-template-columns: repeat(3, 240px); 
+  justify-content: space-between;  
   margin: 0 auto;  
-  border: 1px solid #ed6742;
 }
 
-.cards__item {
-  
+.cards__item {  
+  text-align: center;  
 }
 
 .cards__image {  
   width: 160px;
-  height: 160px;  
-  padding: 60px 43px 40px;
+  height: 160px; 
+  border-radius: 50%;     
+  border: 1px solid #ed6742; 
+  margin: 60px 40px 43px;
 }
 
-.cards__title {
-  text-align: center;
+.cards__title {  
+  line-height: 1.15;
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 16px;  
 }
 
-.cards__description {
-  text-align: center;
+.cards__description {  
+  line-height: 23px;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.video {
+  margin-top: 100px;  
+}
+
+.video__iframes {
+  display: grid;
+  grid-template-columns: repeat(2, 515px);  
+  column-gap: 20px;
+  justify-content: center;  
+  position: relative;
+  top: 50px;
+  z-index: 6;
+}
+
+.video__iframe {
+  width: 515px;
+  height: 316px;    
+}
+
+.oakley {
+  padding-top: 160px;
+  background-color: #f2f2f2;
+  position: relative;
+  z-index: 5;
 }
 
 .digits {
@@ -248,6 +280,71 @@ div, h1, section, cards {
   text-decoration: none;
 }
 
+.khan {
+  background-color: #f2f2f2;
+  padding-top: 105px;  
+}
+
+.khan__container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.khan__author {  
+  line-height: 42px;
+  font-size: 30px;
+  font-weight: 400;
+}
+
+.khan__title {  
+  line-height: 1.15;
+  font-size: 60px;
+  font-weight: 700;
+}
+
+.khan__quote {
+  line-height: 34px;
+  font-size: 24px;
+  font-weight: 400;
+  width: 790px;
+  margin-top: 50px;
+  margin-bottom: 36px;
+}
+
+.khan__quote-author {
+  line-height: 1.15;
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 10px
+}
+
+.khan__quote-author-subline {
+  line-height: 1.15;
+  font-size: 24px;
+  font-weight: 400;
+}
+
+.khan__book-container {
+  margin-top: 68px;
+  display: flex;
+ 
+}
+
+.khan__book-pic {
+ background: url(../images/khan-book.jpg);
+ width: 620px;
+ height: 608px;
+}
+  
+.khanbuy-link {
+  line-height: 42px;
+  font-size: 30px;
+  font-weight: 400;
+  margin-left: 48px;
+  text-decoration: none;
+  color: #2f80ed;
+}
+
 .kaufman {
   background-color: #1f1f1f;
   padding-top: 90px;
@@ -286,6 +383,20 @@ div, h1, section, cards {
   background-position: center;
   background-repeat: no-repeat;
   z-index: -1;
+}
+
+.resources {
+
+}
+
+.resources__logo-zone {
+  width: 1100px;
+  margin: 0 auto;
+}
+
+.resources__logo {
+  width: 270px;
+  height: 38px;
 }
 
 .footer {
