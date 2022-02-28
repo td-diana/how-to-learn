@@ -30,12 +30,6 @@
   background-image: url(../images/logo_place_header.svg);
 }
 
-.techniques {
-  width: 80%;
-  margin: 0 auto;
-  padding-top: 100px;
-}
-
 .cards {
   width: 920px;
   display: grid;
@@ -98,24 +92,6 @@
 .digits {
   margin-top: 100px;
   margin-bottom: 100px;
-}
-
-.section-title {
-  width: 60%;
-  line-height: 1.15;
-  font-size: 60px;
-  font-weight: 700;
-  text-align: center;
-  margin: 0 auto;
-}
-
-.section-subtitle {
-  width: 60%;
-  line-height: 34px;
-  font-size: 24px;
-  font-weight: normal;
-  text-align: center;
-  margin: 20px auto 0;
 }
 
 .table {
