@@ -30,31 +30,6 @@
   background-image: url(../images/logo_place_header.svg);
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.kaufman {
-  background-color: #1f1f1f;
-  padding-top: 90px;
-  padding-bottom: 90px;
-  overflow: hidden;
-  position: relative;
-  z-index: 1;
-}
-
 .section-title_theme-dark {
   color: white;
 }
